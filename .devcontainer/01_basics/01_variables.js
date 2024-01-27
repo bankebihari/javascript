@@ -9,6 +9,7 @@ accountCity = "patna"
 accountEmail="rahul@gmail.com"
 accountPassword="4332"
 accountCity="chapra"
+let accountState;// without assighnong the values to a varibles are undefined
 
 
 console.log(accontId);
