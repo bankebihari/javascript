@@ -13,7 +13,7 @@ let accountState;// without assighnong the values to a varibles are undefined
 
 
 console.log(accontId);
-console.table([accontId,accountEmail,accountPassword,accountCity]);
+console.table([accontId,accountEmail,accountPassword,accountCity,accountState]);
 /*
 prefer not to use var because of issue in block and functional scope
 */
