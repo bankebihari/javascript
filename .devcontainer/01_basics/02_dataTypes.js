@@ -6,7 +6,7 @@ console.log(3+3); console.log("sunny") // ple take care of readability of code i
 
 let name ="hitesh"
 let age =23
-let isLong= false
+let isLoggedIn= false
 
 // number => 2 to  53
 // bigint
