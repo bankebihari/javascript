@@ -1,7 +1,7 @@
 let score = "hitesh"
 
-console.log(typeof score); //string
-console.log(typeof(score)); //string we can also used in this type
+// console.log(typeof score); //string
+// console.log(typeof(score)); //string we can also used in this type
 
 let valueInNumber = Number(score)
 // console.log(typeof valueInNumber); // type number 
@@ -15,8 +15,8 @@ let valueInNumber = Number(score)
 let isLoggedIn =""
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
 
 // 1=>true ; 0=false
 // " " => true ,"" => false
@@ -27,5 +27,46 @@ console.log(typeof booleanIsLoggedIn);
 let someNumber =33
 
 let  stringNumber = String (someNumber)
- console.log(stringNumber)
- console.log(typeof stringNumber);
+//  console.log(stringNumber)
+//  console.log(typeof stringNumber);
+
+ // ****************  Operations   ****************
+
+ let value =3 
+ let negValue=-value
+ //console.log(negValue)
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%9);
+
+let str1="hello"
+let str2 ="sunny"
+
+let str3=str1+ str2
+//console.log(str3);
+
+// console.log("1" +2);
+// console.log(2+"2");
+// console.log("1" +2 +2);
+// console.log(2+2 +"3");
+ 
+
+// answer 12
+// 22
+// 122 they consider only forst  datatype and start calculating
+// 43  all are consider as a  number
+
+console.log(true)
+console.log(+true) //1
+//console.log(true++) syntex error
+console.log(+"") //0
+
+
+let gameCounter = 100
+gameCounter++ //101
+//++gameCounter
+console.log(gameCounter);
